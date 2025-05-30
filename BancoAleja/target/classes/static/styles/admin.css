@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; 
+    color: #e91e63; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    color: #e91e63; 
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.admin-container {
+    background-color: #fff0f5; 
+    border: 2px solid #ff80ab; 
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(233, 30, 99, 0.2);
+    margin-bottom: 20px;
+}
+
+.admin-menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.admin-menu li {
+    margin: 0;
+}
+
+.admin-menu a {
+    display: block;
+    background-color: #f8bbd0; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s;
+    border: 1px solid #e91e63;
+}
+
+.admin-menu a:hover {
+    background-color: #ff80ab;
+    color: white;
+    transform: translateY(-3px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e91e63;
+    border-radius: 5px;
+    background-color: #fff0f5;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #e91e63;
+}
+
+button[type="submit"],
+.admin-btn {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover,
+.admin-btn:hover {
+    background-color: #ff80ab;
+}
+
+.back-btn {
+    background-color: transparent;
+
+}

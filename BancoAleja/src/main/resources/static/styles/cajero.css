@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    color: #cc3366;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4);
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #cc3366;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ff99cc;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+button[type="submit"],
+.btn-primary {
+    background-color: #ff99cc;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover,
+.btn-primary:hover {
+    background-color: #ffcce0;
+    color: #cc3366;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #cc3366;
+    border: 2px solid #ff99cc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #ffe6f0;
+    color: #cc3366;
+}
+
+
+ul.cuenta-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+ul.cuenta-list li {
+    background-color: rgba(255, 182, 193, 0.2);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th {
+    background-color: #ff99cc;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ffcce0;
+}
+
+table tr:hover {
+    background-color: #fff0f5;
+}
+
+
+.mensaje-exito {
+    color: #33cc99;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.mensaje-error {
+    color: #ff3366;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.info-text {
+    font-style: italic;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cc3366;
+}
